@@ -1,14 +1,15 @@
 import './App.css'
-import React from 'react';
 import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import Titulocomponente from './components/TituloComponente';
+
+
 
 const App = () => {
   return (
-    <div>
-      <NavBar />
-      <ItemListContainer mensaje="¡Bienvenidos a nuestra tienda!" />
-    </div>
+    <>
+    <Titulocomponente/>
+    <NavBar/>
+    </>
   );
 };
 
