@@ -1,7 +1,8 @@
-export default function ButtonComponent(props,color){
+import "./ButtonComponents.css"
+export default function ButtonComponent(props){
     return(
         <>
-        <button style={{ backgroundColor: color}}>{props.texto}</button>
+        <button>{props.texto}</button>
         </>
     );
 }

@@ -1,0 +1,21 @@
+ButtonComponent{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto; /* Centrado con un pequeño espacio */
+        padding: 12px 24px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    ButtonComponent:hover {
+        background-color: #2ecc71; /* Cambia de color */
+        transform: scale(1.1); /* Efecto de crecimiento */
+    }
+

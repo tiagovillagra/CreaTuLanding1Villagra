@@ -1,11 +1,14 @@
 import ButtonComponent from "./ButtonComponent"
-
+import "./NavBar.css" 
 export default function NavBar(){
     return(
     <nav>
-    <ButtonComponent texto="inicio"color="red"/>
-    <ButtonComponent texto="Productos" color="blue"/>
-    <ButtonComponent texto="Carrito" color="green"/>
+        <div>
+    <ButtonComponent texto="inicio"/>
+    <ButtonComponent texto="Productos" />
+    <ButtonComponent texto="Carrito" />
+    <ButtonComponent texto="🛒"/>
+        </div>
     </nav>
     );
 }

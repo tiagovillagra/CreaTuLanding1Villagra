@@ -1,14 +1,17 @@
 import './App.css'
+import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
-import Titulocomponente from './components/TituloComponente';
+
 
 
 
 const App = () => {
   return (
     <>
-    <Titulocomponente/>
+    <header>
     <NavBar/>
+    </header>
+    <ItemListContainer texto="Bienvenidos a mi e-ecomerce"/>
     </>
   );
 };
